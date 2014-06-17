@@ -205,6 +205,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Justin Mutter";
 				TargetAttributes = {
+					2C2DA35717CFCDBB00E5EBF8 = {
+						DevelopmentTeam = 6ZYNJZSY2C;
+					};
 					2C2DA37B17CFCDBB00E5EBF8 = {
 						TestTargetID = 2C2DA35717CFCDBB00E5EBF8;
 					};
@@ -408,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ServerTest.app/ServerTest";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -430,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ServerTest.app/ServerTest";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -463,6 +468,7 @@
 				2C2DA38F17CFCDBB00E5EBF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C2DA39017CFCDBB00E5EBF8 /* Build configuration list for PBXNativeTarget "ServerTestTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +477,7 @@
 				2C2DA39217CFCDBB00E5EBF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
